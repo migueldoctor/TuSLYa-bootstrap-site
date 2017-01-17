@@ -18,9 +18,38 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Boostrap link 3: Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+  </style>
 </head>
 <body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar"> <!-- Adding a navigator bar on top of the page with a container inside -->
+                                                                      <!-- navbar-inverse makes the menu looks with black background color -->
+                                                                      <!-- navbar-fixed-top makes the menu be always visible on top of the page no matter the scrolling -->
+    <div class="container">
+        <div class="navbar-header"> <!-- Header for the menu where the options will be displayed -->
+
+          <!-- This button includes the attribute data-toggle set to collapse so it will be displayed as a button when the page gets smaller than a desktop device -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="icon-bar"></span> <!-- This is an horizontal line, the four of them will be the icon when the page gets smaller -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="" class="navbar-brand">TuSLYa</a> <!-- Title of your site within the navbar -->
+        </div> <!-- End navbar-header -->
+
+        <!-- This is the list with the menu options. The attribute id is equal to the data-target attribute in the button contained by navbar-header div -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#option1">Option1</a></li>
+            <li><a href="#option2">Option2</a></li>
+            <li><a href="#option3">Option3</a></li>
+            <li><a href="#option4">Option4</a></li>
+            <li><a href="#option5">Option5</a></li>
+          </ul>
+        </div> <!-- End div collapse options -->
+    </div><!-- End container -->
+  </nav><!-- End navbar -->
 
 </body>
 
