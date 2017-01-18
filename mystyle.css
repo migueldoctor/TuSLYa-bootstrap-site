@@ -1,5 +1,5 @@
 
 /* This rule makes the top bar menu to look nicer with other elements when scrolling down*/
 body {
-  padding-top: 40px; /* 1em = 10px */
+  padding-top: 40px;
 }
