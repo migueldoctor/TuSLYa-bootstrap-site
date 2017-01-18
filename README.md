@@ -1,1 +1,1 @@
-# TuSLYa-bootstrap-site
+# template-bootstrap-site
